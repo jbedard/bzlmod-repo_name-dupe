@@ -1,0 +1,5 @@
+module(
+    name = "bzlmod-dupes",
+)
+
+bazel_dep(name = "aspect_bazel_lib", version = "2.3.0", repo_name = "foobar")
